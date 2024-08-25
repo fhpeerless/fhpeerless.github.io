@@ -80,11 +80,11 @@
     
     
     <entry>
-      <title>archives</title>
-      <link href="/archives/index.html"/>
-      <url>/archives/index.html</url>
+      <title>公告</title>
+      <link href="/notice/index.html"/>
+      <url>/notice/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>1313123</p>]]></content>
       
     </entry>
     
@@ -102,11 +102,11 @@
     
     
     <entry>
-      <title>公告</title>
-      <link href="/notice/index.html"/>
-      <url>/notice/index.html</url>
+      <title>archives</title>
+      <link href="/archives/index.html"/>
+      <url>/archives/index.html</url>
       
-        <content type="html"><![CDATA[<p>1313123</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
