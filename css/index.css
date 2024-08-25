@@ -3498,7 +3498,7 @@ li.categoryBar-list-item:nth-child(1) {
   background: url('../img/1.jpg');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('https://moonshuo.cn/cover/shju.jpg');
+  background: url('../cover/shju.jpg');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
   content: '看看这篇文章' !important;

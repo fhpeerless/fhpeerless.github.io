@@ -1,6 +1,6 @@
 // 动态心跳
 $(document).ready(function(e){
-    $('.copyright').html('©2022 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By 偷掉月亮的阿硕');
+    $('.copyright').html('©2024 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By 稻田里的小跳蛙');
 })
 
 $(document).ready(function(e){
@@ -9,7 +9,7 @@ $(document).ready(function(e){
 
 //本站运行时间
 function show_date_time(){
-$('.framework-info').html('小破站已经安全运行<span id="span_dt_dt" style="color: #fff;"></span>');
+$('.framework-info').html('本博客已经安全运行<span id="span_dt_dt" style="color: #fff;"></span>');
 window.setTimeout("show_date_time()", 1000);
 BirthDay=new Date("3/5/2022 0:0:0");
 today=new Date();
