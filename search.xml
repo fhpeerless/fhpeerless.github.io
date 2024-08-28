@@ -44,6 +44,17 @@
     
     
     <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分页</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -71,17 +82,6 @@
       <url>/notice/index.html</url>
       
         <content type="html"><![CDATA[<p>1313123</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
