@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://fhpeerless.github.io/posts/56032.html</loc>
+    <loc>https://xtwa.org/posts/56032.html</loc>
     
     <lastmod>2024-09-02</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://fhpeerless.github.io/notice/index.html</loc>
+    <loc>https://xtwa.org/notice/index.html</loc>
     
     <lastmod>2024-08-28</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://fhpeerless.github.io/tags/index.html</loc>
+    <loc>https://xtwa.org/tags/index.html</loc>
     
     <lastmod>2024-08-25</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://fhpeerless.github.io/categories/index.html</loc>
+    <loc>https://xtwa.org/categories/index.html</loc>
     
     <lastmod>2024-08-21</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://fhpeerless.github.io/about/index.html</loc>
+    <loc>https://xtwa.org/about/index.html</loc>
     
     <lastmod>2024-08-21</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://fhpeerless.github.io/archives/index.html</loc>
+    <loc>https://xtwa.org/archives/index.html</loc>
     
     <lastmod>2024-08-21</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://fhpeerless.github.io/posts/16107.html</loc>
+    <loc>https://xtwa.org/posts/16107.html</loc>
     
     <lastmod>2024-08-21</lastmod>
     
@@ -66,7 +66,7 @@
   
 
   <url>
-    <loc>https://fhpeerless.github.io/</loc>
+    <loc>https://xtwa.org/</loc>
     <lastmod>2024-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -74,7 +74,7 @@
 
   
   <url>
-    <loc>https://fhpeerless.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://xtwa.org/tags/%E5%BA%94%E8%AF%95%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2024-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -83,7 +83,7 @@
 
   
   <url>
-    <loc>https://fhpeerless.github.io/categories/%E5%BA%94%E8%AF%95%E8%B5%84%E6%BA%90/</loc>
+    <loc>https://xtwa.org/categories/%E5%BA%94%E8%AF%95%E8%B5%84%E6%BA%90/</loc>
     <lastmod>2024-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
