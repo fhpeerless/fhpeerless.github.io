@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xtwa.org/posts/52032.html</loc>
+    
+    <lastmod>2024-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xtwa.org/posts/56032.html</loc>
     
     <lastmod>2024-09-02</lastmod>
@@ -67,7 +76,7 @@
 
   <url>
     <loc>https://xtwa.org/</loc>
-    <lastmod>2024-09-02</lastmod>
+    <lastmod>2024-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,7 +84,14 @@
   
   <url>
     <loc>https://xtwa.org/tags/%E5%BA%94%E8%AF%95%E8%B5%84%E6%BA%90/</loc>
-    <lastmod>2024-09-02</lastmod>
+    <lastmod>2024-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtwa.org/tags/%E8%84%9A%E6%9C%AC%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -84,7 +100,14 @@
   
   <url>
     <loc>https://xtwa.org/categories/%E5%BA%94%E8%AF%95%E8%B5%84%E6%BA%90/</loc>
-    <lastmod>2024-09-02</lastmod>
+    <lastmod>2024-09-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtwa.org/categories/%E5%90%84%E7%A7%8D%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
