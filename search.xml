@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>linux常用命令大全</title>
+      <link href="/posts/18008.html"/>
+      <url>/posts/18008.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="linux常用命令"><a href="#linux常用命令" class="headerlink" title="linux常用命令"></a>linux常用命令</h2><h4 id="工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣"><a href="#工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣" class="headerlink" title="工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣"></a>工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣</h4><h2 id="一-文件命令"><a href="#一-文件命令" class="headerlink" title="一. 文件命令"></a>一. 文件命令</h2><h3 id="1-显示-home-user目录下的文件列表及详细信息。"><a href="#1-显示-home-user目录下的文件列表及详细信息。" class="headerlink" title="1 显示/home/user目录下的文件列表及详细信息。"></a>1 显示/home/user目录下的文件列表及详细信息。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ls</span> -l /home/user</span><br></pre></td></tr></table></figure><h3 id="2-将当前目录改为-etc。"><a href="#2-将当前目录改为-etc。" class="headerlink" title="2 将当前目录改为/etc。"></a>2 将当前目录改为/etc。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc </span><br></pre></td></tr></table></figure><h3 id="3-pwd-输出当前目录"><a href="#3-pwd-输出当前目录" class="headerlink" title="3 pwd 输出当前目录"></a>3 pwd 输出当前目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">pwd</span></span><br></pre></td></tr></table></figure><h3 id="4-在当前目录下创建名为newdir的新目录。"><a href="#4-在当前目录下创建名为newdir的新目录。" class="headerlink" title="4 在当前目录下创建名为newdir的新目录。"></a>4 在当前目录下创建名为newdir的新目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> newdir</span><br></pre></td></tr></table></figure><h3 id="5-删除整个文件夹"><a href="#5-删除整个文件夹" class="headerlink" title="5 删除整个文件夹"></a>5 删除整个文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rm</span> -r </span><br></pre></td></tr></table></figure><p>rm file.txt 删除file.txt文件；rm -r newdir 删除名为newdir的目录及其内容。</p><h3 id="6-删除名为newdir的空目录。"><a href="#6-删除名为newdir的空目录。" class="headerlink" title="6 删除名为newdir的空目录。"></a>6 删除名为newdir的空目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rmdir</span> newdir</span><br></pre></td></tr></table></figure><p>rmdir newdir 删除名为newdir的空目录。</p><h3 id="7-复制目录"><a href="#7-复制目录" class="headerlink" title="7 复制目录"></a>7 复制目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> -r dir1 dir2 </span><br></pre></td></tr></table></figure><p>cp file.txt backup.txt 复制file.txt为backup.txt；   cp -r dir1 dir2 复制整个目录dir1到dir2。</p><h3 id="8-移动或重命名文件或目录。"><a href="#8-移动或重命名文件或目录。" class="headerlink" title="8 移动或重命名文件或目录。"></a>8 移动或重命名文件或目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mv</span> [<span class="built_in">source</span>] [destination]</span><br></pre></td></tr></table></figure><p>mv file.txt /tmp 将file.txt移动到/tmp目录；mv file.txt newfile.txt 重命名file.txt为newfile.txt。</p><h3 id="9-移动或重命名文件或目录。"><a href="#9-移动或重命名文件或目录。" class="headerlink" title="9 移动或重命名文件或目录。"></a>9 移动或重命名文件或目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">touch</span> [file]</span><br></pre></td></tr></table></figure><p>touch newfile.txt 如果newfile.txt不存在则创建它；如果存在，则更新其时间戳，表示文件最后的修改时间</p><h3 id="10-ln-创建链接。"><a href="#10-ln-创建链接。" class="headerlink" title="10 ln - 创建链接。"></a>10 ln - 创建链接。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ln</span> [<span class="built_in">source</span>] [<span class="built_in">link</span>]</span><br><span class="line"><span class="built_in">ln</span> -s [<span class="built_in">source</span>] [symlink]</span><br></pre></td></tr></table></figure><p>ln file.txt link.txt 创建硬链接；ln -s file.txt symlink.txt 创建软链接（符号链接）。</p><p>硬链接概念：</p><p>硬链接是文件系统中的一个概念，它允许用户为同一个文件创建多个入口点，即多个文件名可以指向同一个文件内容。这些文件名可以位于文件系统的不同位置，但它们都指向并修改同一个物理文件。硬链接通过索引节点号（Inode Index）来实现，每个文件在文件系统中都有一个唯一的索引节点号，硬链接就是通过这个索引节点号来链接不同的文件名到同一个文件内容。</p><p>软连接概念：<br>‌创建软链接是指在计算机中创建一个指向另一个文件或目录的符号链接。‌这种链接也被称为符号链接或符号连接，它是一个指向目标文件或目录的特殊文件，类似于一个快捷方式。</p><h3 id="11-查找"><a href="#11-查找" class="headerlink" title="11 查找"></a>11 查找</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find [path] [expression]</span><br></pre></td></tr></table></figure><p>find /etc -name “*.conf” 查找/etc目录下的所有.conf文件。</p><h3 id="12-grep-在文件中搜索匹配的行"><a href="#12-grep-在文件中搜索匹配的行" class="headerlink" title="12 grep - 在文件中搜索匹配的行"></a>12 grep - 在文件中搜索匹配的行</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep [pattern] [file]</span><br></pre></td></tr></table></figure><p>示例：grep “example” file.txt 在file.txt中查找包含”example”的行。</p><h3 id="13-wc-统计文件的字节数、字数、行数等。"><a href="#13-wc-统计文件的字节数、字数、行数等。" class="headerlink" title="13 wc - 统计文件的字节数、字数、行数等。"></a>13 wc - 统计文件的字节数、字数、行数等。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">wc</span> [options] [file]</span><br></pre></td></tr></table></figure><p>示例：wc -l file.txt 计算file.txt的行数。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源杂项 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 命令大全 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一键隐藏-我的电脑盘符</title>
       <link href="/posts/52032.html"/>
       <url>/posts/52032.html</url>
@@ -57,11 +82,11 @@
     
     
     <entry>
-      <title>分页</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="MY-social"><a href="#MY-social" class="headerlink" title="MY - social"></a>MY - social</h2><h2 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h2><p>B站————————-&gt;<a href="https://space.bilibili.com/585038005">进入up主主页</a>&lt;———————————</p><h2 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h2><p>Vx平台————————&gt; VX公众号 ：ashagw &lt;———————————</p><h2 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h2><p>电子邮件———————-&gt; 我的邮箱: mail@xtwa.org &lt;—————————</p>]]></content>
       
     </entry>
     
@@ -79,22 +104,11 @@
     
     
     <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>分页</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<h2 id="MY-social"><a href="#MY-social" class="headerlink" title="MY - social"></a>MY - social</h2><h2 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h2><p>B站————————-&gt;<a href="https://space.bilibili.com/585038005">进入up主主页</a>&lt;———————————</p><h2 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h2><p>Vx平台————————&gt; VX公众号 ：ashagw &lt;———————————</p><h2 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h2><p>电子邮件———————-&gt; 我的邮箱: mail@xtwa.org &lt;—————————</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>公告</title>
-      <link href="/notice/index.html"/>
-      <url>/notice/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="号外，号外，博客大事速览！"><a href="#号外，号外，博客大事速览！" class="headerlink" title="号外，号外，博客大事速览！"></a>号外，号外，博客大事速览！</h2>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -106,6 +120,17 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>公告</title>
+      <link href="/notice/index.html"/>
+      <url>/notice/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="号外，号外，博客大事速览！"><a href="#号外，号外，博客大事速览！" class="headerlink" title="号外，号外，博客大事速览！"></a>号外，号外，博客大事速览！</h2>]]></content>
       
     </entry>
     
