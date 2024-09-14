@@ -68,31 +68,9 @@
     
     
     <entry>
-      <title>公告</title>
-      <link href="/notice/index.html"/>
-      <url>/notice/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="号外，号外，博客大事速览！"><a href="#号外，号外，博客大事速览！" class="headerlink" title="号外，号外，博客大事速览！"></a>号外，号外，博客大事速览！</h2>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>archives</title>
       <link href="/archives/index.html"/>
       <url>/archives/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -106,6 +84,28 @@
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[<h2 id="MY-social"><a href="#MY-social" class="headerlink" title="MY - social"></a>MY - social</h2><h2 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h2><p>B站————————-&gt;<a href="https://space.bilibili.com/585038005">进入up主主页</a>&lt;———————————</p><h2 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h2><p>Vx平台————————&gt; VX公众号 ：ashagw &lt;———————————</p><h2 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h2><p>电子邮件———————-&gt; 我的邮箱: mail@xtwa.org &lt;—————————</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>公告</title>
+      <link href="/notice/index.html"/>
+      <url>/notice/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="号外，号外，博客大事速览！"><a href="#号外，号外，博客大事速览！" class="headerlink" title="号外，号外，博客大事速览！"></a>号外，号外，博客大事速览！</h2>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
