@@ -17,23 +17,23 @@
     
     
     <entry>
-      <title>吐血整理最新学习网课资源</title>
-      <link href="/posts/56032.html"/>
-      <url>/posts/56032.html</url>
+      <title>linux常用命令大全</title>
+      <link href="/posts/18008.html"/>
+      <url>/posts/18008.html</url>
       
-        <content type="html"><![CDATA[<h2 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客"></a>欢迎来到我的博客</h2><h4 id="为莘莘学子，搜罗了网上的学习资源，非本人所存，资源均来源于网络，我们只是大自然的搬运工，如有侵权，请及时与我联系！！"><a href="#为莘莘学子，搜罗了网上的学习资源，非本人所存，资源均来源于网络，我们只是大自然的搬运工，如有侵权，请及时与我联系！！" class="headerlink" title="为莘莘学子，搜罗了网上的学习资源，非本人所存，资源均来源于网络，我们只是大自然的搬运工，如有侵权，请及时与我联系！！"></a>为莘莘学子，搜罗了网上的学习资源，非本人所存，资源均来源于网络，我们只是大自然的搬运工，如有侵权，请及时与我联系！！</h4><h3 id="职业技能研考类"><a href="#职业技能研考类" class="headerlink" title="职业技能研考类"></a>职业技能研考类</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://docs.qq.com/sheet/DU1pKZlVYVUtuVFZp?tab=tiirmx</span><br></pre></td></tr></table></figure><p>点我跳转网盘地址: <a href="https://docs.qq.com/sheet/DU1pKZlVYVUtuVFZp?tab=tiirmx">职业技能公考等资源</a></p><h3 id="网盘研考资料分享，含真题等"><a href="#网盘研考资料分享，含真题等" class="headerlink" title="网盘研考资料分享，含真题等"></a>网盘研考资料分享，含真题等</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://qzbltushu.ysepan.com/</span><br></pre></td></tr></table></figure><p>点我进入网页: <a href="http://qzbltushu.ysepan.com/">考研网课真题等资源聚合</a></p><h3 id="静待添加"><a href="#静待添加" class="headerlink" title="静待添加"></a>静待添加</h3><p>上面分享的资源均为网盘存储请自备网盘！！！！！， 资源均来源于网络，我们只是大自然的搬运工</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣"><a href="#工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣" class="headerlink" title="工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣"></a>工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣</h3><h2 id="一-文件命令"><a href="#一-文件命令" class="headerlink" title="一. 文件命令"></a>一. 文件命令</h2><h3 id="显示-home-user目录下的文件列表及详细信息。"><a href="#显示-home-user目录下的文件列表及详细信息。" class="headerlink" title="显示/home/user目录下的文件列表及详细信息。"></a>显示/home/user目录下的文件列表及详细信息。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ls</span> -l /home/user</span><br></pre></td></tr></table></figure><h3 id="将当前目录改为-etc。"><a href="#将当前目录改为-etc。" class="headerlink" title="将当前目录改为/etc。"></a>将当前目录改为/etc。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc </span><br></pre></td></tr></table></figure><h3 id="pwd-输出当前目录"><a href="#pwd-输出当前目录" class="headerlink" title="pwd 输出当前目录"></a>pwd 输出当前目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">pwd</span></span><br></pre></td></tr></table></figure><h3 id="在当前目录下创建名为newdir的新目录。"><a href="#在当前目录下创建名为newdir的新目录。" class="headerlink" title="在当前目录下创建名为newdir的新目录。"></a>在当前目录下创建名为newdir的新目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> newdir</span><br></pre></td></tr></table></figure><h3 id="删除整个文件夹"><a href="#删除整个文件夹" class="headerlink" title="删除整个文件夹"></a>删除整个文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rm</span> -r </span><br></pre></td></tr></table></figure><p>rm file.txt 删除file.txt文件；rm -r newdir 删除名为newdir的目录及其内容。</p><h3 id="删除名为newdir的空目录。"><a href="#删除名为newdir的空目录。" class="headerlink" title="删除名为newdir的空目录。"></a>删除名为newdir的空目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rmdir</span> newdir</span><br></pre></td></tr></table></figure><p>rmdir newdir 删除名为newdir的空目录。</p><h3 id="复制目录"><a href="#复制目录" class="headerlink" title="复制目录"></a>复制目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> -r dir1 dir2 </span><br></pre></td></tr></table></figure><p>cp file.txt backup.txt 复制file.txt为backup.txt；   cp -r dir1 dir2 复制整个目录dir1到dir2。</p><h3 id="移动或重命名文件或目录。"><a href="#移动或重命名文件或目录。" class="headerlink" title="移动或重命名文件或目录。"></a>移动或重命名文件或目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mv</span> [<span class="built_in">source</span>] [destination]</span><br></pre></td></tr></table></figure><p>mv file.txt /tmp 将file.txt移动到/tmp目录；mv file.txt newfile.txt 重命名file.txt为newfile.txt。</p><h3 id="移动或重命名文件或目录。-1"><a href="#移动或重命名文件或目录。-1" class="headerlink" title="移动或重命名文件或目录。"></a>移动或重命名文件或目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">touch</span> [file]</span><br></pre></td></tr></table></figure><p>touch newfile.txt 如果newfile.txt不存在则创建它；如果存在，则更新其时间戳，表示文件最后的修改时间</p><h3 id="ln-创建链接。"><a href="#ln-创建链接。" class="headerlink" title="ln - 创建链接。"></a>ln - 创建链接。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ln</span> [<span class="built_in">source</span>] [<span class="built_in">link</span>]</span><br><span class="line"><span class="built_in">ln</span> -s [<span class="built_in">source</span>] [symlink]</span><br></pre></td></tr></table></figure><p>ln file.txt link.txt 创建硬链接；ln -s file.txt symlink.txt 创建软链接（符号链接）。</p><p>硬链接概念：</p><p>硬链接是文件系统中的一个概念，它允许用户为同一个文件创建多个入口点，即多个文件名可以指向同一个文件内容。这些文件名可以位于文件系统的不同位置，但它们都指向并修改同一个物理文件。硬链接通过索引节点号（Inode Index）来实现，每个文件在文件系统中都有一个唯一的索引节点号，硬链接就是通过这个索引节点号来链接不同的文件名到同一个文件内容。</p><p>软连接概念：<br>‌创建软链接是指在计算机中创建一个指向另一个文件或目录的符号链接。‌这种链接也被称为符号链接或符号连接，它是一个指向目标文件或目录的特殊文件，类似于一个快捷方式。</p><h3 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find [path] [expression]</span><br></pre></td></tr></table></figure><p>find /etc -name “*.conf” 查找/etc目录下的所有.conf文件。</p><h3 id="grep-在文件中搜索匹配的行"><a href="#grep-在文件中搜索匹配的行" class="headerlink" title="grep - 在文件中搜索匹配的行"></a>grep - 在文件中搜索匹配的行</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep [pattern] [file]</span><br></pre></td></tr></table></figure><p>示例：grep “example” file.txt 在file.txt中查找包含”example”的行。</p><h3 id="wc-统计文件的字节数、字数、行数等。"><a href="#wc-统计文件的字节数、字数、行数等。" class="headerlink" title="wc - 统计文件的字节数、字数、行数等。"></a>wc - 统计文件的字节数、字数、行数等。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">wc</span> [options] [file]</span><br></pre></td></tr></table></figure><p>示例：wc -l file.txt 计算file.txt的行数。</p><h2 id="查找正在运行的命令"><a href="#查找正在运行的命令" class="headerlink" title="查找正在运行的命令"></a>查找正在运行的命令</h2><h3 id=""><a href="#" class="headerlink" title="."></a>.</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ps aux | grep python</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="-1"><a href="#-1" class="headerlink" title="."></a>.</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ps aux | grep ffmpeg</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="-2"><a href="#-2" class="headerlink" title="."></a>.</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">nohup</span> python3 local_time_hsh.py &amp;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
-          <category> 应试资源 </category>
+          <category> 资源杂项 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 应试资源 </tag>
+            <tag> 命令大全 </tag>
             
         </tags>
       
@@ -67,23 +67,23 @@
     
     
     <entry>
-      <title>linux常用命令大全</title>
-      <link href="/posts/18008.html"/>
-      <url>/posts/18008.html</url>
+      <title>吐血整理最新学习网课资源</title>
+      <link href="/posts/56032.html"/>
+      <url>/posts/56032.html</url>
       
-        <content type="html"><![CDATA[<h3 id="工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣"><a href="#工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣" class="headerlink" title="工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣"></a>工欲善其事必先利其器！，人都有遗忘性，必须把以前学的整理，温故而知新，可以为师矣</h3><h2 id="一-文件命令"><a href="#一-文件命令" class="headerlink" title="一. 文件命令"></a>一. 文件命令</h2><h3 id="显示-home-user目录下的文件列表及详细信息。"><a href="#显示-home-user目录下的文件列表及详细信息。" class="headerlink" title="显示/home/user目录下的文件列表及详细信息。"></a>显示/home/user目录下的文件列表及详细信息。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ls</span> -l /home/user</span><br></pre></td></tr></table></figure><h3 id="将当前目录改为-etc。"><a href="#将当前目录改为-etc。" class="headerlink" title="将当前目录改为/etc。"></a>将当前目录改为/etc。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc </span><br></pre></td></tr></table></figure><h3 id="pwd-输出当前目录"><a href="#pwd-输出当前目录" class="headerlink" title="pwd 输出当前目录"></a>pwd 输出当前目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">pwd</span></span><br></pre></td></tr></table></figure><h3 id="在当前目录下创建名为newdir的新目录。"><a href="#在当前目录下创建名为newdir的新目录。" class="headerlink" title="在当前目录下创建名为newdir的新目录。"></a>在当前目录下创建名为newdir的新目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> newdir</span><br></pre></td></tr></table></figure><h3 id="删除整个文件夹"><a href="#删除整个文件夹" class="headerlink" title="删除整个文件夹"></a>删除整个文件夹</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rm</span> -r </span><br></pre></td></tr></table></figure><p>rm file.txt 删除file.txt文件；rm -r newdir 删除名为newdir的目录及其内容。</p><h3 id="删除名为newdir的空目录。"><a href="#删除名为newdir的空目录。" class="headerlink" title="删除名为newdir的空目录。"></a>删除名为newdir的空目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">rmdir</span> newdir</span><br></pre></td></tr></table></figure><p>rmdir newdir 删除名为newdir的空目录。</p><h3 id="复制目录"><a href="#复制目录" class="headerlink" title="复制目录"></a>复制目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> -r dir1 dir2 </span><br></pre></td></tr></table></figure><p>cp file.txt backup.txt 复制file.txt为backup.txt；   cp -r dir1 dir2 复制整个目录dir1到dir2。</p><h3 id="移动或重命名文件或目录。"><a href="#移动或重命名文件或目录。" class="headerlink" title="移动或重命名文件或目录。"></a>移动或重命名文件或目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mv</span> [<span class="built_in">source</span>] [destination]</span><br></pre></td></tr></table></figure><p>mv file.txt /tmp 将file.txt移动到/tmp目录；mv file.txt newfile.txt 重命名file.txt为newfile.txt。</p><h3 id="移动或重命名文件或目录。-1"><a href="#移动或重命名文件或目录。-1" class="headerlink" title="移动或重命名文件或目录。"></a>移动或重命名文件或目录。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">touch</span> [file]</span><br></pre></td></tr></table></figure><p>touch newfile.txt 如果newfile.txt不存在则创建它；如果存在，则更新其时间戳，表示文件最后的修改时间</p><h3 id="ln-创建链接。"><a href="#ln-创建链接。" class="headerlink" title="ln - 创建链接。"></a>ln - 创建链接。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ln</span> [<span class="built_in">source</span>] [<span class="built_in">link</span>]</span><br><span class="line"><span class="built_in">ln</span> -s [<span class="built_in">source</span>] [symlink]</span><br></pre></td></tr></table></figure><p>ln file.txt link.txt 创建硬链接；ln -s file.txt symlink.txt 创建软链接（符号链接）。</p><p>硬链接概念：</p><p>硬链接是文件系统中的一个概念，它允许用户为同一个文件创建多个入口点，即多个文件名可以指向同一个文件内容。这些文件名可以位于文件系统的不同位置，但它们都指向并修改同一个物理文件。硬链接通过索引节点号（Inode Index）来实现，每个文件在文件系统中都有一个唯一的索引节点号，硬链接就是通过这个索引节点号来链接不同的文件名到同一个文件内容。</p><p>软连接概念：<br>‌创建软链接是指在计算机中创建一个指向另一个文件或目录的符号链接。‌这种链接也被称为符号链接或符号连接，它是一个指向目标文件或目录的特殊文件，类似于一个快捷方式。</p><h3 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find [path] [expression]</span><br></pre></td></tr></table></figure><p>find /etc -name “*.conf” 查找/etc目录下的所有.conf文件。</p><h3 id="grep-在文件中搜索匹配的行"><a href="#grep-在文件中搜索匹配的行" class="headerlink" title="grep - 在文件中搜索匹配的行"></a>grep - 在文件中搜索匹配的行</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep [pattern] [file]</span><br></pre></td></tr></table></figure><p>示例：grep “example” file.txt 在file.txt中查找包含”example”的行。</p><h3 id="wc-统计文件的字节数、字数、行数等。"><a href="#wc-统计文件的字节数、字数、行数等。" class="headerlink" title="wc - 统计文件的字节数、字数、行数等。"></a>wc - 统计文件的字节数、字数、行数等。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">wc</span> [options] [file]</span><br></pre></td></tr></table></figure><p>示例：wc -l file.txt 计算file.txt的行数。</p><h2 id="查找正在运行的命令"><a href="#查找正在运行的命令" class="headerlink" title="查找正在运行的命令"></a>查找正在运行的命令</h2><h3 id=""><a href="#" class="headerlink" title="."></a>.</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ps aux | grep python</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="-1"><a href="#-1" class="headerlink" title="."></a>.</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ps aux | grep ffmpeg</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="-2"><a href="#-2" class="headerlink" title="."></a>.</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">nohup</span> python3 local_time_hsh.py &amp;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h2 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客"></a>欢迎来到我的博客</h2><h4 id="为莘莘学子，搜罗了网上的学习资源，非本人所存，资源均来源于网络，我们只是大自然的搬运工，如有侵权，请及时与我联系！！"><a href="#为莘莘学子，搜罗了网上的学习资源，非本人所存，资源均来源于网络，我们只是大自然的搬运工，如有侵权，请及时与我联系！！" class="headerlink" title="为莘莘学子，搜罗了网上的学习资源，非本人所存，资源均来源于网络，我们只是大自然的搬运工，如有侵权，请及时与我联系！！"></a>为莘莘学子，搜罗了网上的学习资源，非本人所存，资源均来源于网络，我们只是大自然的搬运工，如有侵权，请及时与我联系！！</h4><h3 id="职业技能研考类"><a href="#职业技能研考类" class="headerlink" title="职业技能研考类"></a>职业技能研考类</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://docs.qq.com/sheet/DU1pKZlVYVUtuVFZp?tab=tiirmx</span><br></pre></td></tr></table></figure><p>点我跳转网盘地址: <a href="https://docs.qq.com/sheet/DU1pKZlVYVUtuVFZp?tab=tiirmx">职业技能公考等资源</a></p><h3 id="网盘研考资料分享，含真题等"><a href="#网盘研考资料分享，含真题等" class="headerlink" title="网盘研考资料分享，含真题等"></a>网盘研考资料分享，含真题等</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://qzbltushu.ysepan.com/</span><br></pre></td></tr></table></figure><p>点我进入网页: <a href="http://qzbltushu.ysepan.com/">考研网课真题等资源聚合</a></p><h3 id="静待添加"><a href="#静待添加" class="headerlink" title="静待添加"></a>静待添加</h3><p>上面分享的资源均为网盘存储请自备网盘！！！！！， 资源均来源于网络，我们只是大自然的搬运工</p>]]></content>
       
       
       <categories>
           
-          <category> 资源杂项 </category>
+          <category> 应试资源 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 命令大全 </tag>
+            <tag> 应试资源 </tag>
             
         </tags>
       
@@ -92,28 +92,6 @@
     
   
   
-    
-    
-    <entry>
-      <title>archives</title>
-      <link href="/archives/index.html"/>
-      <url>/archives/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
     
     
     <entry>
@@ -144,6 +122,28 @@
       <url>/notice/index.html</url>
       
         <content type="html"><![CDATA[<h2 id="号外，号外，博客大事速览！"><a href="#号外，号外，博客大事速览！" class="headerlink" title="号外，号外，博客大事速览！"></a>号外，号外，博客大事速览！</h2>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>archives</title>
+      <link href="/archives/index.html"/>
+      <url>/archives/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
