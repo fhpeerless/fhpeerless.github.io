@@ -95,20 +95,20 @@
     
     
     <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>分页</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="分类说明"><a href="#分类说明" class="headerlink" title="分类说明"></a><span style="color: blue; font-size: 24px;">分类说明</span></h1><p>—-&gt;<span style="color: green; font-size: 24px;">网站—将会偏向—技术与程序，金融等知识分享</span>&lt;—————-</p><p>—-&gt;<span style="color: green; font-size: 24px;">公众号—将偏向—文学方面，例如诗歌，历史等</span>&lt;—————-</p><h1 id="MY-social"><a href="#MY-social" class="headerlink" title="MY - social"></a><span style="color: blue; font-size: 24px;">MY - social</span></h1><h2 id="1-B站"><a href="#1-B站" class="headerlink" title="1.B站"></a>1.B站</h2><p><span style="color: blue; font-size: 24px;"><a href="https://space.bilibili.com/585038005">进入up主主页</a></span></p><h2 id="2-Vx平台"><a href="#2-Vx平台" class="headerlink" title="2.Vx平台"></a>2.Vx平台</h2><p><span style="color: green; font-size: 24px;"> VX公众号：ashagw </span></p><h2 id="3-我的联系方式"><a href="#3-我的联系方式" class="headerlink" title="3.我的联系方式"></a>3.我的联系方式</h2><p><span style="color: green; font-size: 24px;"> mail@xtwa.org </span></p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>分页</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>archives</title>
+      <link href="/archives/index.html"/>
+      <url>/archives/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -128,11 +128,11 @@
     
     
     <entry>
-      <title>archives</title>
-      <link href="/archives/index.html"/>
-      <url>/archives/index.html</url>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="分类说明"><a href="#分类说明" class="headerlink" title="分类说明"></a><span style="color: blue; font-size: 24px;">分类说明</span></h1><p><span style="color: green; font-size: 24px;">网站：将会偏向技术与程序，例如，金融等知识分享</span>&lt;—————-</p><p><span style="color: green; font-size: 24px;">公众号：将偏向—文学方面，例如 诗歌，历史等</span>&lt;—————-</p><h1 id="MY-social"><a href="#MY-social" class="headerlink" title="MY - social"></a><span style="color: blue; font-size: 24px;">MY - social</span></h1><h2 id="1-B站"><a href="#1-B站" class="headerlink" title="1.B站"></a>1.B站</h2><p><span style="color: blue; font-size: 24px;"><a href="https://space.bilibili.com/585038005">进入up主主页</a></span></p><h2 id="2-Vx平台"><a href="#2-Vx平台" class="headerlink" title="2.Vx平台"></a>2.Vx平台</h2><p><span style="color: green; font-size: 24px;"> VX公众号：ashagw </span></p><h2 id="3-我的联系方式"><a href="#3-我的联系方式" class="headerlink" title="3.我的联系方式"></a>3.我的联系方式</h2><p><span style="color: green; font-size: 24px;">邮箱：  mail@xtwa.org </span></p>]]></content>
       
     </entry>
     
