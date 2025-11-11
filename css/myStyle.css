@@ -614,12 +614,18 @@ div#archive {
   }
   #notice-item .li-style {
 	width: 100%;
-	height: 2.5em;
+	height: auto !important;
+	min-height: 2.5em;
 	font-weight: 500;
 	text-align: center;
 	font-size: 16px;
-	line-height: 2.5;
+	line-height: 1.5;
 	transition: 0.3s;
+	white-space: normal !important;
+	word-wrap: break-word !important;
+	overflow: visible !important;
+	text-overflow: clip !important;
+	padding: 0.5rem 0;
   }
   #notice-item .li-style span.date {
   font-size: 14px;
@@ -628,17 +634,18 @@ div#archive {
   margin: 0 5px;
    }
   #noticeList {
-	width: 100%; /* 原来的宽度 */
-	height: 2.5em; /* 适合一行字的高度 */
+	width: 100%;
+	min-height: 4em;
+	height: auto;
 	background: var(--card-bg);
 	color: var(--font-color);
 	margin-top: 1rem;
-	padding: 0.6rem 1rem;
+	padding: 0.8rem 1rem;
 	border-radius: 12px;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
-	overflow: hidden;
+	/* 移除overflow hidden以允许内容完整显示 */
   }
   #noticeList .nlogo{
 	color: var(--font-color);
@@ -648,6 +655,29 @@ div#archive {
   #noticeList .swiper-container{
 	display: flex;
 	flex: 1;
+	height: auto;
+	min-height: 2.5em;
+	/* 移除overflow hidden以允许内容完整显示 */
+	position: relative;
+  }
+  #notice-item {
+	height: 100% !important;
+	/* 移除transform强制设置，允许Swiper控制滚动动画 */
+  }
+  #notice-item .swiper-slide {
+	height: auto !important;
+	min-height: 2.5em;
+	flex-shrink: 0;
+	width: 100% !important;
+	white-space: normal !important;
+	word-wrap: break-word !important;
+	overflow: visible !important;
+	text-overflow: clip !important;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.5;
+	padding: 0.5rem 15px;
+	/* 确保每个slide有足够空间显示完整内容 */
   }
   #noticeList i {
 	text-align: right;
