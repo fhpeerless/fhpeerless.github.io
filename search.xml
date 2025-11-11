@@ -128,22 +128,22 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>公告</title>
+      <link href="/notice/index.html"/>
+      <url>/notice/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="号外，号外，博客大事速览！"><a href="#号外，号外，博客大事速览！" class="headerlink" title="号外，号外，博客大事速览！"></a>号外，号外，博客大事速览！</h2>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>公告</title>
-      <link href="/notice/index.html"/>
-      <url>/notice/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<h2 id="号外，号外，博客大事速览！"><a href="#号外，号外，博客大事速览！" class="headerlink" title="号外，号外，博客大事速览！"></a>号外，号外，博客大事速览！</h2>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
