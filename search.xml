@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>删除win10开始菜单已经卸载程序的快捷目录和快捷方式</title>
+      <link href="/posts/11224.html"/>
+      <url>/posts/11224.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="方法一：直接手动删除（最直接）"><a href="#方法一：直接手动删除（最直接）" class="headerlink" title="方法一：直接手动删除（最直接）"></a>方法一：直接手动删除（最直接）</h3><p>这是最推荐首先使用的方法。</p><ol><li><strong>打开开始菜单</strong>，找到那个残留的快捷方式（例如 <code>oy3.10</code>）。</li><li><strong>右键单击</strong>这个快捷方式。</li><li><strong>选择“更多” -&gt; “打开文件位置”</strong>。<ul><li>这个操作会直接定位到这个快捷方式在“开始菜单”文件夹中的实际位置。</li></ul></li><li>在打开的窗口中，<strong>直接按 <code>Delete</code> 键删除</strong>这个快捷方式文件，或者右键点击选择“删除”。</li><li>关闭所有窗口，重新打开开始菜单查看，残留项应该已经消失。</li></ol><h3 id="方法二：清理“开始菜单”文件夹-站主试验最彻底"><a href="#方法二：清理“开始菜单”文件夹-站主试验最彻底" class="headerlink" title="方法二：清理“开始菜单”文件夹(站主试验最彻底)"></a>方法二：清理“开始菜单”文件夹(站主试验最彻底)</h3><p>如果方法一不生效，或者你想彻底检查，可以手动访问“开始菜单”文件夹。</p><ol><li>同时按下 <code>Win + R</code> 键，打开“运行”对话框。</li><li>输入以下路径之一，然后按回车：<ul><li><strong>当前用户的开始菜单</strong>：输入 <code>%appdata%\Microsoft\Windows\Start Menu\Programs</code> 然后回车。</li><li><strong>所有用户的开始菜单</strong>：输入 <code>C:\ProgramData\Microsoft\Windows\Start Menu\Programs</code> 然后回车。<ul><li><code>ProgramData</code> 文件夹通常是隐藏的，如果提示找不到，请先确保在文件资源管理器的“查看”选项卡中勾选了“隐藏的项目”。</li></ul></li></ul></li><li>在这两个文件夹中寻找，看是否有包含 <code>oy3.10</code> 或相关名称的文件夹或快捷方式（<code>.lnk</code> 文件）。</li><li>找到后，<strong>直接删除</strong>它们。</li><li>删除后，最好能<strong>重启一下“Windows资源管理器”</strong>来刷新开始菜单：<ul><li>按 <code>Ctrl + Shift + Esc</code> 打开任务管理器。</li><li>找到“Windows资源管理器”进程。</li><li>右键点击它，选择“重新启动”。</li></ul></li></ol><h3 id="方法三：重建开始菜单缓存（治本方法）"><a href="#方法三：重建开始菜单缓存（治本方法）" class="headerlink" title="方法三：重建开始菜单缓存（治本方法）"></a>方法三：重建开始菜单缓存（治本方法）</h3><p>如果以上方法都无效，可能是Windows的开始菜单缓存数据库损坏了，需要重建。这是一个安全且有效的操作。</p><ol><li>在任务栏的搜索框（Cortana框）里输入 <strong><code>PowerShell</code></strong>。</li><li>在搜索结果“Windows PowerShell”上<strong>右键单击</strong>，选择 <strong>“以管理员身份运行”</strong>。</li><li><p>在弹出的蓝色窗口（管理员：Windows PowerShell）中，<strong>逐行输入以下命令</strong>，每输入一行按一次回车：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">stop-process</span> <span class="literal">-name</span> explorer <span class="literal">-force</span></span><br><span class="line"><span class="built_in">Remove-Item</span> <span class="string">&quot;<span class="variable">$env:localappdata</span>\TileDataLayer\Database\*&quot;</span> <span class="literal">-Recurse</span> <span class="literal">-Force</span></span><br><span class="line"><span class="built_in">start-process</span> explorer</span><br></pre></td></tr></table></figure></li><li><p>命令执行完成后，关闭PowerShell窗口。</p></li><li><strong>注销当前用户并重新登录</strong>，或者直接重启电脑。</li><li>再次打开开始菜单，残留的快捷方式应该会被清除，同时菜单布局可能会重置为默认，你之前固定的其他程序需要重新固定，但这是正常的。</li></ol><hr><h3 id="总结与建议"><a href="#总结与建议" class="headerlink" title="总结与建议"></a>总结与建议</h3><ul><li><strong>首选【方法一】</strong>，最直观简单。</li><li>如果方法一无效，尝试<strong>【方法二】</strong>，手动到文件夹里“挖”出残留文件。</li><li>如果问题频繁出现，或者想彻底解决，使用<strong>【方法三】</strong> 重建缓存，一劳永逸。</li></ul><p>通过以上步骤，您开始菜单中那个已经卸载的 <code>oy3.10</code> 程序的残留快捷方式一定能被清理掉。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 各种教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> win10相关 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>修改ps1文件的关联</title>
       <link href="/posts/42393.html"/>
       <url>/posts/42393.html</url>
