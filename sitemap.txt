@@ -1,6 +1,7 @@
+https://xtwa.org/posts/41358.html
+https://xtwa.org/posts/43998.html
 https://xtwa.org/posts/11224.html
 https://xtwa.org/posts/24083.html
-https://xtwa.org/posts/43998.html
 https://xtwa.org/posts/27955.html
 https://xtwa.org/posts/23662.html
 https://xtwa.org/posts/26605.html
@@ -27,6 +28,7 @@ https://xtwa.org/tags/ssh%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/
 https://xtwa.org/tags/win10%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/
 https://xtwa.org/tags/Google/
 https://xtwa.org/tags/win10%E7%9B%B8%E5%85%B3/
+https://xtwa.org/tags/linux/
 https://xtwa.org/categories/%E8%B5%84%E6%BA%90%E6%9D%82%E9%A1%B9/
 https://xtwa.org/categories/%E5%90%84%E7%A7%8D%E6%95%99%E7%A8%8B/
 https://xtwa.org/categories/%E5%BA%94%E8%AF%95%E8%B5%84%E6%BA%90/
